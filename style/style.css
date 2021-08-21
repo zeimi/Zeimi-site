@@ -16,7 +16,7 @@ header .container {
     align-items: center;
     justify-content: space-between;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 70px;
 }
 
 header .logo {
@@ -28,10 +28,11 @@ header nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
+    margin-top: 10px;
     transition: all ease .4s;
 }
 
-header nav a:hover{
+header nav a:hover, .dropdown:hover .dropbtn{
     color: #fff;
     transition: .4s ease all;
 }
@@ -41,6 +42,48 @@ header nav a:hover{
 header nav .nmuda:hover {
     color: #aaa;
 }
+
+.dropdown {
+    float:right;
+    overflow: hidden;
+
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #aaa;
+    background-color: inherit;
+    font-family: inherit;
+    margin-right: 10px;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 body {
     background: var(--preto);
