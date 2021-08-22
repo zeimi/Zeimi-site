@@ -10,10 +10,21 @@
         height: 50px;
     }
 
+    .observa{
+        color: white;
+    }
 }
 
 @media screen and (min-width: 100px) {
     .sinopse{
         width: 50%;
     }    
+}
+
+@media screen and (max-width: 400px) {
+header nav a {
+    font-size: 15px;
+    margin-right: 1%;
+}
+    
 }
