@@ -1,5 +1,4 @@
 # Esse é o meu primeiro site
 
-Tudo isso é só um teste. 
-
-Futuras melhorias virão conforme o meu aprendizado.
+Caso queira acessar, siga o seguinte link:
+https://zeimi.github.io/
