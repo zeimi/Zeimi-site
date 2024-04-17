@@ -1,96 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bruno Durão</title>
-    <link rel="stylesheet" href="style/style.css">
-    <!--owl css-->
-    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    <link rel="stylesheet" href="style/responsive.css">
-    <link rel="icon" type="image/png" href="img/Icone1.png">
+    <title>Portifólio Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <img class="logo" src="img/Icone1.png"></img>
-            <nav>
-                <a class="nmuda">Meios de Contato:</a>
-                <a href="https://www.linkedin.com/in/b-durao/" target="_blank">Linkedin</a>
-                <a href="https://github.com/zeimi" target="_blank">GitHub</a>
-                <a HREF="mailto:contato.brunodurao@gmail.com?Body=Estou%20a%20espera%20de%20contatos%21%0A%3A%29" target="_blank">E-mail</a>
-                 <a href="https://discord.com/users/371672445192503307" target="_blank">Discord</a>
-                <a href="https://api.whatsapp.com/send?phone=5571986568660" target="_blank">Número</a>
-                    
-            </nav>
-        </div>
+    <header class="header">
+        <a href="#" class="logo">Bruno.</a>
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Projetos</a>
+            <a href="#">Portifólio</a>
+            <a href="#">Contato</a>
+        </nav>
     </header>
 
-    <main>
-        <div class="principal">
-            <div class="container">
-                <h3 class="titulo">Um pouco sobre mim...</h3>
-                <p class="sinopse"> Olá! Meu nome é Bruno, atualmente tenho 20 anos e sou estudante de Engenharia da Computação.
-                     Desde pequeno eu tenho grande interesse em aprender e utilizar computadores, celulares e tudo aquilo que envolve a 
-                    Tecnologia da Informação. Hoje eu descobri que é um mundo com infinitas possibilidades e aprender ao máximo todas elas e desenvolver novos 
-                    meios de utiliza-las são meus grandes objetivos. Desejo aplicar todo o conhecimento que já aprendi e aprender muito mais com novas experiências
-                    com isso agregar às empresas as quais trabalharei. 
-                </p>
+    <section class="home">
+        <div class="home-content">
+            <h1>Olá, eu sou Bruno Durão</h1>
+            <h3>Backend Developer</h3>
+            <p>Desenvolvedor Backend com habilidades em NodeJs e experiência em bancos de dados SQL e NoSQL. Familiarizado com metodologias ágeis e organização de projetos. Conhecimentos em algoritmos e estrutura de dados. Proativo e em busca de oportunidades para ampliar minha experiência como desenvolvedor. Meus projetos foram realizados com as seguintes tecnologias: Javascript, NodeJs, SQL, NOSQL, Python.</p>
+            <div class="btn-box">
+                <a href="#">Contrate-me</a>
+                <a href="#">Contato</a>
             </div>
         </div>
-        <div class="certifi1">
-            <h3>Lista de certificados e/ou conhecimentos</h3>
-            <div class="certifi2">
-                <p> Acesse todos os certificados</p>
-                <a href="https://drive.google.com/drive/folders/1FzRYBNJYKl0JNrr84cBgTlv7sgozABcs?usp=sharing" target="_blank" class="certificados">   Clicando Aqui</a>
-            </div>
+
+        <div class="home-sci">
+            <a href="https://api.whatsapp.com/send?phone=5571986568660" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            <a href="https://www.linkedin.com/in/b-durao/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/zeimi" target="_blank"><i class='bx bxl-github' ></i></a>
         </div>
-    </main>
 
-    <div class="carrosel-filmes">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img class="box-filme" src="img/mini1.jpg" alt="">
-                <h4 class="tc">Inglês Intermediário/Avançado</h4>
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini2.jpg" alt="duvidas">
-                <h4 class="tc">HTML Básico</h4>
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini3.jpg" alt="">
-                <h4 class="tc">CSS Básico</h4>
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini4.jpg" alt="">
-                <h4 class="tc">Bootstrap Básico</h4>
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini5.jpg" href="">
-                <h4 class="tc">Python Intermediário</h4>
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini6.jpg" alt="">
-                <h4 class="tc">JavaScript Básico</h4>
-            </div>
-            <div class="item">
-                <img class="box-filme" src="img/mini7.jpg" alt="">
-                <h4 class="tc">C Básico</h4>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="observa">
-        Obs: Melhor visualização do site em Desktop.
-    </div>
-
-
-    <script src="https://kit.fontawesome.com/6d016c4158.js" crossorigin="anonymous"></script>
-    <script src="js/owl/jquery.min.js"></script>
-    <script src="js/owl/owl.carousel.min.js"></script>
-    <script src="js/owl/setup.js"></script>
-
+        <span class="home-imgHover"></span>
+    </section>
 </body>
 </html>
